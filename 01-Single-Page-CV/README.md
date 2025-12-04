@@ -1,6 +1,7 @@
 # Single Page CV
 
 Brief single-page CV/portfolio template. Open `index.html` in a browser to preview.
+https://roadmap.sh/projects/single-page-cv
 
 Preview:
 
