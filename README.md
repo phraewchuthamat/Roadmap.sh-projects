@@ -1,46 +1,33 @@
-# Frontend Projects
+# 🚀 Roadmap.sh Frontend Projects Repository
 
-This folder contains small frontend projects built while following exercises from Roadmap.sh. Each project is self-contained and can be opened directly in a browser for quick preview.
+> 
 
-## Projects
+นี่คือที่เก็บรวบรวมโปรเจ็กต์และแบบฝึกหัดด้าน **Frontend Development** ที่ฉันได้ทำตามคำแนะนำจาก **Roadmap.sh** ซึ่งออกแบบมาเพื่อพัฒนาทักษะตั้งแต่ระดับพื้นฐานไปจนถึงระดับสูง
 
-- `01-Single-Page-CV` — a single-page CV/portfolio template.
-- `02-Basic-HTML-Website` — a basic multi-page HTML website (index, article, contact, projects) with a stylesheet.
+แต่ละโฟลเดอร์เป็นโปรเจ็กต์ที่แยกออกจากกันโดยสมบูรณ์ (Self-contained) และพร้อมสำหรับการตรวจสอบ (Review)
 
-## Preview locally
+---
 
-Option 1 — Open in browser:
+## 🎯 สารบัญโปรเจ็กต์ (Project Index & Live Previews)
 
-- Double-click the `index.html` file in the project folder to open it in your default browser.
+ในส่วนนี้จะแสดงรายการโปรเจ็กต์ทั้งหมดที่ทำเสร็จสมบูรณ์แล้ว **พร้อมลิงก์ไปยังหน้าโปรเจ็กต์ที่เผยแพร่ (Project Page URL)** สำหรับการตรวจสอบ
 
-Option 2 — Simple local server (recommended):
+| # | ชื่อโปรเจ็กต์ (Project Name) | สถานะ (Status) | ลิงก์ไปยัง Source Code | ลิงก์ไปยังหน้า Live Preview |
+|---|-----------------------------|----------------|------------------------|-----------------------------|
+| **01** | **Single-Page-CV** | ✅ Completed | [`01-Single-Page-CV/`](/01-Single-Page-CV) | [🔗 Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/01-Single-Page-CV/index.html) |
+| **02** | **Basic-HTML-Website** | ✅ Completed | [`02-Basic-HTML-Website/`](/02-Basic-HTML-Website) | [🔗 Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/02-Basic-HTML-Website/index.html) |
+| **03** | **Personal-Portfolio** | ⏳ In Progress | [`03-Personal-Portfolio/`](/03-Personal-Portfolio) | *[ยังไม่มี Live Demo]* |
 
-- Using Python 3 (PowerShell):
+---
 
-```
-cd "Frontend Projects/02-Basic-HTML-Website"
-py -3 -m http.server 8000; # then open http://localhost:8000
-```
+## ⚙️ วิธีการติดตั้งและรันโปรเจ็กต์ (Setup & Local Execution)
 
-## Prepare for GitHub upload
+หากต้องการรันโปรเจ็กต์เหล่านี้ในเครื่องของคุณเอง สามารถทำได้ตามขั้นตอนง่ายๆ ดังนี้:
 
-Suggested steps (PowerShell):
+### 1. โคลน Repository
 
-```
-cd "c:\Users\VITUS\OneDrive\Dokumen\Roadmap.sh-projects"
-git init                # only if the repo is not already initialized
-git add .
-git commit -m "chore: add frontend projects"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
+เปิด Terminal/Command Prompt แล้วโคลน Repository นี้:
 
-Replace `<your-github-repo-url>` with the HTTPS or SSH URL of your GitHub repository.
-
-## Notes
-
-- Keep assets (images, fonts) inside each project folder for portability.
-- Use the included `.gitignore` to avoid committing editor or OS files.
-
-If you want, I can also add per-project instructions, or create a single GitHub Pages branch and help deploy these projects as a static site.
+```bash
+git clone https://github.com/phraewchuthamat/Roadmap.sh-projects.git
+cd Roadmap.sh-projects
