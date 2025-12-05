@@ -1,33 +1,45 @@
-# 🚀 Roadmap.sh Frontend Projects Repository
+# 🚀 Frontend Skill Mastery: Roadmap.sh Project Solutions
 
-> 
+[![GitHub license](https://img.shields.io/github/license/phraewchuthamat/Roadmap.sh-projects)](https://github.com/phraewchuthamat/Roadmap.sh-projects/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/phraewchuthamat/Roadmap.sh-projects?style=social)](https://github.com/phraewchuthamat/Roadmap.sh-projects)
+[![Last Commit](https://img.shields.io/github/last-commit/phraewchuthamat/Roadmap.sh-projects)](https://github.com/phraewchuthamat/Roadmap.sh-projects/commits/main)
 
-นี่คือที่เก็บรวบรวมโปรเจ็กต์และแบบฝึกหัดด้าน **Frontend Development** ที่ฉันได้ทำตามคำแนะนำจาก **Roadmap.sh** ซึ่งออกแบบมาเพื่อพัฒนาทักษะตั้งแต่ระดับพื้นฐานไปจนถึงระดับสูง
+## 🌟 ภาพรวม (Overview)
 
-แต่ละโฟลเดอร์เป็นโปรเจ็กต์ที่แยกออกจากกันโดยสมบูรณ์ (Self-contained) และพร้อมสำหรับการตรวจสอบ (Review)
+ที่เก็บโค้ด (Repository) นี้รวบรวมโซลูชันและผลงานการปฏิบัติจริงสำหรับโปรเจ็กต์ **Frontend Development** ที่คัดเลือกมาจากเส้นทางการเรียนรู้ของ **[Roadmap.sh](https://roadmap.sh/frontend)**
+วัตถุประสงค์หลักของ Repository นี้คือการแสดงให้เห็นถึงความสามารถในการประยุกต์ใช้ทักษะด้าน HTML, CSS, และ JavaScript ตั้งแต่ระดับพื้นฐาน (Basic) ไปจนถึงระดับกลาง (Intermediate) ในการสร้างเว็บแอปพลิเคชันที่ใช้งานได้จริง
+
+แต่ละโปรเจ็กต์จะถูกจัดเก็บในโฟลเดอร์ย่อยที่แยกออกจากกันโดยสมบูรณ์ (Self-contained) เพื่อให้ง่ายต่อการตรวจสอบโค้ดและการรัน
 
 ---
 
-## 🎯 สารบัญโปรเจ็กต์ (Project Index & Live Previews)
+## 🎯 สารบัญโปรเจ็กต์ (Project Index & Requirements Compliance)
 
-ในส่วนนี้จะแสดงรายการโปรเจ็กต์ทั้งหมดที่ทำเสร็จสมบูรณ์แล้ว **พร้อมลิงก์ไปยังหน้าโปรเจ็กต์ที่เผยแพร่ (Project Page URL)** สำหรับการตรวจสอบ
+ตารางด้านล่างแสดงรายการโปรเจ็กต์ที่ทำเสร็จสมบูรณ์ พร้อมลิงก์สำคัญที่จำเป็นสำหรับการตรวจสอบและส่งผลงาน:
 
-| # | ชื่อโปรเจ็กต์ (Project Name) | สถานะ (Status) | ลิงก์ไปยัง Source Code | ลิงก์ไปยังหน้า Live Preview |
-|---|-----------------------------|----------------|------------------------|-----------------------------|
-| **01** | **Single-Page-CV** | Completed | [`01-Single-Page-CV`](https://github.com/phraewchuthamat/Roadmap.sh-projects/tree/main/01-Single-Page-CV) | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/01-Single-Page-CV/index.html) |
-| **02** | **Basic-HTML-Website** | Completed | [`02-Basic-HTML-Website`](https://github.com/phraewchuthamat/Roadmap.sh-projects/tree/main/02-Basic-HTML-Website) | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/02-Basic-HTML-Website/index.html) |
-| **03** | **Personal-Portfolio** | Completed | [`03-Personal-Portfolio`](https://github.com/phraewchuthamat/Roadmap.sh-projects/tree/main/03-Personal-Portfolio) | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects//03-Personal-Portfolio/index.html) |
+| # | ชื่อโปรเจ็กต์ (Project Name) | **Roadmap.sh Project URL (Required)** | สถานะ (Status) | Live Preview (Hosted URL) |
+|---|-----------------------------|---------------------------------------|----------------|-----------------------------|
+| **01** | **Single-Page-CV** | **[Project Link](https://roadmap.sh/projects/single-page-cv)** | ✅ Completed | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/01-Single-Page-CV/index.html) |
+| **02** | **Basic-HTML-Website** | **[Project Link](https://roadmap.sh/projects/basic-html-website)** | ✅ Completed | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/02-Basic-HTML-Website/index.html) |
+| **03** | **Personal-Portfolio** | **[Project Link](https://roadmap.sh/projects/portfolio-website)** | ✅ Completed | [Live Demo](https://phraewchuthamat.github.io/Roadmap.sh-projects/03-Personal-Portfolio/index.html) |
+
+> **หมายเหตุสำคัญ:** คอลัมน์ **"Roadmap.sh Project URL"** ได้ถูกเพิ่มตามข้อกำหนดที่ระบุว่า "README file must contain the project URL" เพื่อให้ผู้ประเมินสามารถอ้างอิงถึงโจทย์ต้นฉบับได้โดยตรง
 
 ---
 
 ## ⚙️ วิธีการติดตั้งและรันโปรเจ็กต์ (Setup & Local Execution)
 
-หากต้องการรันโปรเจ็กต์เหล่านี้ในเครื่องของคุณเอง สามารถทำได้ตามขั้นตอนง่ายๆ ดังนี้:
+โปรเจ็กต์เหล่านี้ไม่จำเป็นต้องมี build tools หรือ package manager (เช่น Node.js) คุณสามารถเปิดไฟล์ `index.html` ของแต่ละโฟลเดอร์ในเบราว์เซอร์ได้โดยตรง อย่างไรก็ตาม วิธีการที่แนะนำสำหรับการพัฒนาคือการใช้ Local Server เพื่อหลีกเลี่ยงปัญหา CORS หรือการโหลด Path
+
+### Prerequisites
+
+* **Web Browser** (เช่น Chrome, Firefox)
+* **(Optional but Recommended):** Visual Studio Code with the **Live Server** extension.
 
 ### 1. โคลน Repository
 
 เปิด Terminal/Command Prompt แล้วโคลน Repository นี้:
 
 ```bash
-git clone https://github.com/phraewchuthamat/Roadmap.sh-projects.git
+git clone [https://github.com/phraewchuthamat/Roadmap.sh-projects.git](https://github.com/phraewchuthamat/Roadmap.sh-projects.git)
 cd Roadmap.sh-projects
