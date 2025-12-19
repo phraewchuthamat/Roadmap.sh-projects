@@ -41,5 +41,9 @@
 เปิด Terminal/Command Prompt แล้วโคลน Repository นี้:
 
 ```bash
-git clone [https://github.com/phraewchuthamat/Roadmap.sh-projects.git](https://github.com/phraewchuthamat/Roadmap.sh-projects.git)
+git clone https://github.com/phraewchuthamat/Roadmap.sh-projects.git
+```
+
+```bash
 cd Roadmap.sh-projects
+```
